@@ -1,0 +1,118 @@
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full screen background for login */
+.login-page {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('image (4).jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Glass effect card */
+.login-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  border-radius: 16px;
+  padding: 40px 30px;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  text-align: center;
+}
+
+/* Heading */
+.login-form h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+/* Input fields */
+.login-form input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.85);
+  color: #222;
+}
+
+.login-form input::placeholder {
+  color: #555;
+}
+
+.login-form input:focus {
+  outline: none;
+  border: 2px solid #8a2be2;
+  background: #fff;
+}
+
+/* Primary button */
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #8a2be2;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #6c1bbd;
+}
+
+/* Social login buttons */
+.google-btn {
+  background-color: #db4437;
+  margin-top: 15px;
+}
+
+.google-btn:hover {
+  background-color: #b8352a;
+}
+
+.github-btn {
+  background-color: #333;
+  margin-top: 10px;
+}
+
+.github-btn:hover {
+  background-color: #222;
+}
+
+/* Signup link */
+.login-form p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #eee;
+}
+
+.login-form a {
+  color: #ffc107;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.login-form a:hover {
+  color: #fff;
+}

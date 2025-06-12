@@ -1,0 +1,112 @@
+
+/* Signup.css */
+
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background with product icon pattern */
+.signup-page {
+  font-family: 'Segoe UI', sans-serif;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://st3.depositphotos.com/30857730/36688/v/450/depositphotos_366881128-stock-illustration-commerce-doodle-icons-collection-online.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  filter: brightness(90%);
+  color: cyan;
+}
+
+
+
+/* Container with glass effect */
+.signup-container {
+  
+  background: rgba(0, 2, 2, 0.15);
+  border-radius: 20px;
+  padding: 40px 30px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+}
+
+/* Title */
+.signup-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: rgb(213, 220, 225);
+}
+
+/* Form styling */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form input {
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.signup-form input::placeholder {
+  color: #666;
+}
+
+.signup-form input:focus {
+  outline: none;
+  border: 2px solid #2ebf91;
+  background-color: #fff;
+}
+
+/* Button */
+.signup-form button {
+  padding: 12px;
+  background-color: #2ebf91;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-form button:hover {
+  background-color: #27ae80;
+}
+
+/* Text below form */
+.signup-form p {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #c8c2c2;
+}
+
+.signup-form a {
+  color: #dfe207;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.signup-form a:hover {
+  color: #9b9b9d;
+}
