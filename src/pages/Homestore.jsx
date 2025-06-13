@@ -11,7 +11,7 @@ const Homestore = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:4000/api/msnfakestore/")
+    fetch(`${process.env.REACT_APP_API_URL}/api/msnfakestore`)
       .then(response => response.json())
       .then((data) => {
         setProducts(data.data);
