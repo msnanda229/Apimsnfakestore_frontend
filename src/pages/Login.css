@@ -116,3 +116,28 @@
 .login-form a:hover {
   color: #fff;
 }
+.password-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.password-container input {
+  width: 100%;
+  padding: 12px 45px 12px 12px;
+  box-sizing: border-box;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #666;
+  font-size: 18px;
+}
+
+.password-toggle:hover {
+  color: #000;
+}
